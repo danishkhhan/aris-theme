@@ -1,0 +1,37 @@
+{
+    "name": "aris-theme",
+    "displayName": "Aris Theme",
+    "description": "A modern, professional dark theme.",
+    "icon": "logo.jpeg",
+    "version": "0.0.1",
+    "publisher": "aris",
+    "keywords": [
+        "theme",
+        "dark",
+        "modern",
+        "professional"
+    ],
+    "galleryBanner": {
+        "color": "#18181b",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aris/aris-theme"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Aris",
+                "uiTheme": "vs-dark",
+                "path": "./themes/aris-color-theme.json"
+            }
+        ]
+    }
+}
